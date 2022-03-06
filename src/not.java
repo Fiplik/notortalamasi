@@ -25,7 +25,7 @@ public class not {
                 int sonuc=(toplam / 6);
                 System.out.println("Öğrencinin Ortalaması:"+ sonuc);
         //
-
+         System.out.print ((sonuc) >= 50 ? "Geçti" : "Kaldı");
 
     }
 }
